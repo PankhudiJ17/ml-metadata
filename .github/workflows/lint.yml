@@ -3,7 +3,7 @@ name: pre-commit
 on:
   pull_request:
   push:
-     branches: [ppc_wf_check]
+     branches: [ppc_2]
 
 jobs:
   pre-commit:
