@@ -3,10 +3,10 @@ name: Build ml-metadata
 on:
   push:
     branches:
-      - master
+      - checking_ppc
   pull_request:
     branches:
-      - master
+      - checking_ppc
   workflow_dispatch:
 
 jobs:
